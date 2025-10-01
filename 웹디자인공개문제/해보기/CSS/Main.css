@@ -1,0 +1,98 @@
+
+/* header -------------------------------- */
+
+.wrapper{
+    width: 1200px;
+}
+.wrapper>header{
+    display: flex;
+    border: 1px solid blue;
+    height: 100px;
+    /* position: relative; */
+}
+.wrapper>header>.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 220px;
+    height: 100%;
+}
+.wrapper>header>.logo>img{
+    width: 200px;
+    height: 40px;
+}
+.wrapper>header>nav{
+    /* position:absolute; */
+    border: 5px solid ;
+
+
+}
+.wrapper>header>nav>.nav-mainmenu{
+    
+}
+.wrapper>header>nav>.nav-mainmenu>.nav-mainmenu{}
+.wrapper>header>nav>.nav-mainmenu>.nav-mainmenu-con{}
+.wrapper>header>nav>.nav-submenu{}
+.wrapper>header>nav>.nav-submenu>.nav-submenu-con{
+}
+.wrapper>header>nav>.nav-submenu>.nav-submenu-con>a{
+    display: none;
+
+}
+
+/* Main ----------------------------------- */
+
+.wrapper>main{
+    border: 1px solid red;
+    height: 500px;
+}
+.wrapper>main>.section1{
+    border: 1px solid yellow;
+    height: 300px;
+}
+.wrapper>main>.section2{
+    display: flex;
+    border: 1px solid gray;
+    height: 200px;
+}
+.wrapper>main>.section2>.C1-wrap{
+    width: 33vw;
+    height: 100%;
+    border: 1px solid red;
+}
+.wrapper>main>.section2>.C2-wrap{
+    border: 1px solid blue;
+    width: 33vw;
+    height: 100%;
+}
+.wrapper>main>.section2>.C3-wrap{
+    border: 1px solid green;
+    width: 33vw;
+    height: 100%;
+}
+
+/* footer --------------------------------- */
+
+.wrapper>footer{
+    display: flex;
+    border: 1px solid green;
+    height: 100px;
+}
+.wrapper>footer>.f-logo{
+    border: 1px solid blue;
+    width: 20vw;
+    height: 100%; 
+}
+.wrapper>footer>.Copyright{
+    border: 1px solid red;
+    width: 60vw;
+    height: 100%;
+}
+
+.wrapper>footer>.SNS{
+    border: 1px solid green;
+    width: 20vw;
+    height: 100%;
+}
+
