@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디 A-3 레이아웃</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    #header{
+        position:relative;
+        width: 100%;
+        /* height: 100px; */
+        /* background-color: rgb(138, 139, 139); */
+        display: flex;
+    }
+    #header .logo{
+        width: 15%;
+        height: 100px;
+        background-color: rgb(168, 151, 128);
+
+    }
+    #header .menu{
+
+        width: 85%;
+        height: 100px;
+        background-color: rgb(240, 220, 194);
+    }
+
+    #header .mainmenu{
+        position: absolute;
+        width: 700px;
+        height: 50px;
+        /* background-color: rgb(180, 148, 148); */
+        margin-top: 50px;
+        margin-left: 300px;
+        display: flex;
+    }
+    #header .MENU1{
+        width: 25%;
+        height: 50px;
+        background-color: rgb(229, 205, 252);
+
+    }
+    #header .MENU2{
+        width: 25%;
+        height: 50px;
+        background-color: rgb(215, 181, 247);
+
+    }
+    #header .MENU3{
+        width: 25%;
+        height: 50px;
+        background-color: rgb(202, 171, 231);
+
+    }
+    #header .MENU4{
+        width: 25%;
+        height: 50px;
+        background-color: rgb(189, 157, 219);
+        
+    }
+
+    #slider{
+        width: 100%;
+        height:300px;
+        background-color: rgb(145, 153, 153);
+    }
+    #contents{
+        width: 100%;
+        /* height: 200px;
+        background-color: rgb(107, 121, 121); */
+        display: flex;
+    }
+    #contents .notice{
+        width: 33.333%;
+        height: 200px;
+        background-color: rgb(195, 241, 241);
+
+    }
+    #contents .gallery{
+        width: 33.333%;
+        height: 200px;
+        background-color: rgb(86, 107, 107);
+
+    }
+    #contents .direct{
+        width: 33.333%;
+        height: 200px;
+        background-color: rgb(195, 241, 241);
+    }
+
+
+    #footer{
+        width: 100%;
+        /* height: 100px;
+        background-color: rgb(138, 139, 139); */
+        display: flex;
+    }
+
+    #footer .f-left{
+        width: 80%;
+        height: 100px;
+        background-color: rgb(130, 136, 136);
+    }
+    
+    #footer .foot-menu{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(130, 136, 136);
+    }
+    #footer .copyright{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(159, 168, 168);
+    }
+
+
+    #footer .f-right{
+        width: 20%;
+        height: 100px;
+        background-color: rgb(141, 163, 163);
+    }
+
+
+
+</style>
+
+</head>
+<body>
+
+<div id="wrapper">
+    <header id="header">
+        <div class="logo"></div>
+        <div class="menu">
+            <div class="mainmenu">
+                <div class="MENU1"></div>
+                <div class="MENU2"></div>
+                <div class="MENU3"></div>
+                <div class="MENU4"></div>
+            </div>
+            <div class="submenu">
+                <div class="SUBMENU1"></div>
+                <div class="SUBMENU2"></div>
+                <div class="SUBMENU3"></div>
+                <div class="SUBMENU4"></div>
+            </div>
+        </div>
+    </header>
+    <article id="slider">
+        <div class="sl">
+            <img src="" alt="">
+        </div>
+    </article>
+    <main id="contents">
+        <div class="notice"></div>
+        <div class="gallery"></div>
+        <div class="direct"></div>
+    </main>
+    <footer id="footer">
+        <div class="f-left">
+            <div class="foot-menu"></div>
+            <div class="copyright"></div>
+        </div>
+        <div class="f-right"></div>
+    </footer>
+</div>
+
+
+
+
+
+    
+</body>
+</html>
